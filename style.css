@@ -1,0 +1,384 @@
+/* #a{
+   border-style: dotted;
+   border-width: 5px;
+   border-color: red;
+}
+#b{
+   border-style: dashed;
+   border-width: 5px;
+   border-color: orange;
+}
+#c{
+   border-style: solid;
+   border-width: 5px;
+   border-color: yellow;
+}
+#d{
+   border-style: double;
+   border-width: 5px;
+   border-color: green;
+}
+#e{
+   border-style: groove;
+   border-width: 5px;
+   border-color: blue;
+}
+#f{
+   border-style: ridge;
+   border-width: 5px;
+   border-color: indigo;
+}
+#g{
+   border-style: inset;
+   border-width: 5px;
+   border-color: violet;
+}
+#h{
+   border-style: outset;
+   border-width: 5px;
+   border-color: pink;
+}
+
+
+.intro{
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("./myimage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    color: black;
+    
+
+ }
+ div .intro{
+    color: red;
+
+ }
+ h1 .intro1{
+   height: 100vh;
+   background-color: blue; 
+ } */
+ /* .intro{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 50px;
+   margin: 10px;
+   padding: 10px;
+   border: 10px solid green;
+   outline: 2px solid;
+   background-color: gray;
+   color: blue;
+ } */
+ /* body{
+   display: flex;
+ }
+ .text{
+   border: 1px solid black;
+   padding: 10px;
+   width: 300px;
+   height: 300px;
+   margin: 10px;
+ }
+ #div1{
+   text-align-last: right;
+ }
+ #div2{
+   text-align-last: left;
+ }
+ #div3{
+   text-align-last: justify;
+ }
+  */
+  /* .text{
+   direction: rtl;
+   unicode-bidi:bidi-override;
+  } */
+/* @font-face{
+   font-family:poppins ;
+   src: url(./css/Poppins/Poppins-Regular.ttf);
+}
+
+
+.text{
+   color: blue;
+   font-size: 20px;
+}
+
+
+  p{
+   font-family: 'poppins';
+   }
+   a:link{
+      color: red;
+      text-decoration: none;
+   }
+   a:visited{
+      color: blue;
+      background-color: gray;
+   }
+   a:hover{
+      color: yellow;
+      text-decoration: underline;
+   }
+   a:active{
+      color: green;
+   } */
+   /* img{
+      height: 100px;
+      width: 100px;
+      position: fixed;
+      bottom: 2px;
+      right: 2px;
+
+   } */
+   /* div.relative{
+      background-color: white;
+      position: relative;
+      width: 400px;
+      height: 200px;
+      border: 2px solid green;
+   }
+   div.absolute{
+      background-color: green;
+      position: absolute;
+      top: 80px;
+      width:200px ;
+      height: 100px;
+      border: 3px solid green;
+      right: 0px;
+      z-index: -10;
+   } */
+   /* div.container{
+      position: relative;
+   }
+   div.black{
+      position: relative;
+      z-index: 1;
+      border: 2px solid black;
+      height: 100px;
+      margin: 30px;
+   }
+   div.grey{
+      position: absolute;
+      z-index: 3;
+      background-color: lightgray;
+      height: 60px;
+      width: 70%;
+      left: 50px;
+      top: 50px;
+   }
+   div.green{
+      position: absolute;
+      z-index: 2;
+      background-color: lightgreen;
+      width: 35%;
+      left: 270px;
+      top: -15px;
+      height: 100px;
+   } */
+   /* div.tag >p{
+      background-color: yellow;
+
+   } */
+   /* div ~ p{
+      background-color: yellow;
+
+   } */
+   /* .box{
+      background-color: red;
+      width: 400px;
+      height: 100px;
+
+   }
+   .box:hover{
+      background-color: yellow;
+   } */
+   /* p{
+      display: none;
+      background-color: yellow;
+      padding: 20px;
+   }
+   div:hover p{
+      display: block;
+
+   } */
+   .nav{
+      display: flex;
+      justify-content: space-between;
+      background-color: green;
+      align-items: center;
+   }
+   
+   .logo img{
+      width: 164px;
+      height: 32px;
+     justify-content: baseline;
+     gap: 10px;
+   }
+
+   .first{
+      display: flex;
+      gap: 5px;
+   }
+
+   ul{
+      display: flex;
+      list-style: none;
+     gap: 40px;
+     color: white;}
+     .images{
+      display: flex;
+     }
+
+     .text1{
+      position: absolute;
+      color: white;
+      font-size: 20px;
+      top: 50%;
+     }
+
+     .text2{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+      
+     }
+
+     .text3{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+          
+     }
+
+     .text4{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+      top: 30%;
+     }
+
+     .text5{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+      bottom: 80px;
+     }
+     .text6{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+     }
+     .text7{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+     }
+    .text8{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+     }
+     .text9{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+     }
+     .text10{
+      position: absolute;
+      color: white;
+      font-size: 15px;
+     }
+     div{
+      margin: 0px;
+     }
+     /* .dropbtn{
+      background-color: #4caf50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+     }
+     .dropdown{
+      position: relative;
+      display: inline-block;
+     }
+   .dropdown-content{
+      display: none; */
+      /* position: absolute;
+      background-color: white; */
+      /* width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+   }
+   .dropdown-content a{
+      color: black;
+      padding: 12px 15px;
+      text-decoration: none;
+      display: block;
+   }
+   .dropdown-content a:hover{
+      background-color: #f1f1f1;
+   }
+   .dropdown:hover .dropdown-content{
+      display: block;
+   }
+   .dropdown:hover .dropbtn{
+      background-color: #3e8e41; */
+
+   
+
+
+
+   
+
+
+     
+   /* a[target]{
+      background-color: yellow;
+   } */
+   /* [target="_self"]{
+      background-color: red;
+   } */
+   /* [class |= "text"]{
+      color: red;
+   } */
+   
+   /* [class $= "text"]{
+      color: red;
+   } */
+   /* [class ^= "text"]{
+      color: red;
+   } */
+   
+   /* ul:hover{
+    display: block;
+    color: white;
+   } */
+   /* input[type="text"]{
+      width: 150px;
+      display: block;
+      margin-bottom: 10px;
+      background-color: yellow;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid red;
+      border-radius: 4px;
+      color: white;
+   }
+
+   input[type="button"]{
+      width: 120px;
+      display: block;
+      background-color: blue;
+   }
+   input[type="text"]:focus{
+      border: solid 3px green;
+   */
